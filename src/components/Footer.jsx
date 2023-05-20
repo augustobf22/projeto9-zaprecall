@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-export default function Footer() {
+export default function Footer(props) {
     return (
-        <DivFooter>
-            <h1>0/4 CONCLUÍDOS</h1>
+        <DivFooter data-test="footer">
+            <h1>{props.counter}/{props.cardsArray.length} CONCLUÍDOS</h1>
         </DivFooter>
     )
 }

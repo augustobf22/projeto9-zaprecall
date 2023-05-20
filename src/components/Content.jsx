@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 import Deck from './Deck'
 
-export default function Content() {
+export default function Content(props) {
     return (
         <DivContent>
-            <Deck />
+            <Deck counter={props.counter} setCounter={props.setCounter} cardsArray={props.cardsArray}/>
         </DivContent>
     )
 }

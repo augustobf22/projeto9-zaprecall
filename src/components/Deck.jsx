@@ -148,7 +148,7 @@ const CardClosed = styled.div`
 `;
 
 const CardOpen = styled.div`
-    background-color: white;
+    background-color: #FFFFD4;
     width:  300px;
     height: auto;
     min-height: 130px;

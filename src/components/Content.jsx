@@ -20,6 +20,8 @@ const DivContent = styled.div`
     justify-content: flex-start;
     align-items: center;
 
+    margin-bottom: 70px;
+
     //hide scrollbar for all browsers
     -ms-overflow-style: none;  
     scrollbar-width: none;

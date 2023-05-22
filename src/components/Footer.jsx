@@ -18,6 +18,10 @@ const DivFooter = styled.div`
     justify-content: center;
     align-items: center;
 
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
     h1{
         font-family: 'Recursive';
         font-style: normal;

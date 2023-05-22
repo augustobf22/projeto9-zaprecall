@@ -35,7 +35,9 @@ const Main = styled.div`
 `;
 
 const Container = styled.div`
-  width:375px;
+  width:100%;
+  min-width: 375px;
+  height: 100%;
   background-color: #FB6B6B;
   border: 1px solid #DBDBDB;
 `;

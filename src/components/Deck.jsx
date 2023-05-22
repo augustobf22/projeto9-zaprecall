@@ -113,7 +113,8 @@ export default function Deck(props) {
 
 const CardClosed = styled.div`
     background-color: white;
-    width:  300px;
+    width:  90%;
+    min-width: 300px;
     height: 65px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
@@ -149,7 +150,8 @@ const CardClosed = styled.div`
 
 const CardOpen = styled.div`
     background-color: #FFFFD4;
-    width:  300px;
+    width: 90%;
+    min-width:  300px;
     height: auto;
     min-height: 130px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
@@ -190,7 +192,8 @@ const CardOpen = styled.div`
 
 const CardConcluded = styled.div`
     background-color: white;
-    width:  300px;
+    width: 90%;
+    min-width:  300px;
     height: 65px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
@@ -231,7 +234,8 @@ const ButtonContainer = styled.div`
 `;
 
 const Button = styled.button`
-    width: 85px;
+    width: 33%;
+    min-width: 85px;
     height: 37px;
     border-radius: 5px;
     border:none;

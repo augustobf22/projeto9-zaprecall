@@ -11,7 +11,8 @@ export default function Content(props) {
 
 const DivContent = styled.div`
     width: 100%;
-    height: 500px;
+    height: 100%;
+    min-height: 500px;
     overflow: scroll;
 
     display: flex;
